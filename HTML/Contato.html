@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPFCnet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/Imagens/Brasao_do_Sao_Paulo_Futebol_Clube.svg.png" />
+</head>
+
+<body>
+<!--navegação -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand text-danger" href="#">SPFCnet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-black" aria-current="page" href="/Html/Index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="/HTML/História.html">História do clube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="/HTML/Títulos.html">Títulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="/HTML/Contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        <section id="contato" class="mt-5">
+            <h2 class="text-danger">Formulário de Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pzjw8f+ua7Kw1TIq0vB38pu3z2R9trRVGJzLr59xzjM/vxptx58LgW88j9T9xd5e"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

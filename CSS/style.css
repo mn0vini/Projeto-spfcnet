@@ -1,0 +1,22 @@
+.carousel-img {
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.carousel-caption h5 {
+    font-size: 1.25rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.btn-lg {
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+}
